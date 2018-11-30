@@ -27,7 +27,7 @@ For this project I target Windows (32 bits only) because of my use of Windows.h 
 The build isn't included in this repository. To build this project, the best and easiest way is to use Visual Studio 2017. All you have to do is to build in any configuration you want (Debug/Release) but for 32 bits platform exclusively (Due to WhiteBoxEngine compatibility).
 A "Build/" folder will be generated at the root of the repository, ready for you to play with!
 
-## WARNING
+## WARNING (Undefined behaviour may occur)
 The application is unstable and sometimes the model won't show up. All you have to do is to close the application and re-open it again. This error is due to resources parsing and comes from the version of WhiteBoxEngine I used.
 
 ## Direct Download

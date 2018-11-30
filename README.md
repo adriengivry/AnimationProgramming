@@ -1,4 +1,4 @@
-# AnimationProgramming
+# Animation Programming
 
 ![Screenshot of the application](Screenshots/Cover.png)
 

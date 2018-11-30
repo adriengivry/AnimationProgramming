@@ -3,7 +3,7 @@
 ![Screenshot of the application](Screenshots/Cover.png)
 
 ## What is this project about ?
-This project is a school project made in 5 days during my studies at ISART Digital. My goals this project are:
+This project is a school project made in 5 days during my studies at ISART Digital. My goals for this project are:
 - Learning how 3D animation (Skeletal animation in particular) can get implemented in a game engine
 - Understanding how to compute a 3D Animation using the CPU and the GPU (Hardware skinning)
 - Improving my skills in project architecture
@@ -29,3 +29,6 @@ A "Build/" folder will be generated at the root of the repository, ready for you
 
 ## Direct Download
 - [Windows - 32/64-bit](http://adrien-givry.com/download/animation-programming.zip)
+
+## Technical Demonstration
+- [Youtube Link](https://youtu.be/PzjegVRmqRU)

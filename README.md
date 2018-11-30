@@ -1,4 +1,4 @@
-# Animation Programming
+# Animation Programming (Skeletal Animation)
 
 ![Screenshot of the application](Screenshots/Cover.png)
 

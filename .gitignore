@@ -1,0 +1,11 @@
+# Visual Studio Files
+*.user
+
+# Visual Studio Directories
+.vs/
+Bin/
+Bin-int/
+Build/
+
+# Keeped directories
+!dependencies/*/bin/

@@ -1,0 +1,84 @@
+Program
+{
+	Shader
+	{
+		name = "skinning.vs"
+	}
+
+	Shader
+	{
+		name = "skinning.ps"
+	}
+
+
+
+
+	Attribute
+	{
+		name = "inputPosition"
+	}
+
+	Attribute
+	{
+		name = "normal"
+	}
+
+	Attribute
+	{
+		name = "boneIndices"
+	}
+
+	Attribute
+	{
+		name = "boneWeights"
+	}
+
+	Uniform
+	{
+		name = "SceneMatrices"
+		type = "Buffer"
+		size = 64
+		platform = "Desktop"
+	}
+
+	Uniform
+	{
+		name = "SceneMatrices"
+		type = "Buffer"
+		size = 192
+		platform = "GearVR"
+	}
+
+	Uniform
+	{
+		name = "modelViewMatrix"
+		type = "Matrix4x4"
+		platform = "Desktop"
+	}
+
+	Uniform
+	{
+		name = "modelMatrix"
+		type = "Matrix4x4"
+		platform = "GearVR"
+	}
+
+	Uniform
+	{
+		name = "SkinningMatrices"
+		type = "Buffer"
+		size = 4096
+	}
+
+	Uniform
+	{
+		name = "shaderTexture"
+		type = "Int"
+	}
+
+	Uniform
+	{
+		name = "lightDirection"
+		type = "Vector3"
+	}
+}

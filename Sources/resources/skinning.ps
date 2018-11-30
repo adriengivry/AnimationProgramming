@@ -1,0 +1,33 @@
+////////////////////////////////////////////////////////////////////////////////
+// Filename: color.ps
+////////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////
+// INPUT VARIABLES //
+in lowp vec3 outColor;
+in lowp vec2 texCoord;
+in lowp vec3 outNormal;
+in vec4 outWeightColor;
+
+//////////////////////
+// OUTPUT VARIABLES //
+//////////////////////
+out lowp vec4 outputColor;
+
+uniform sampler2D 	shaderTexture;
+uniform lowp vec3 	lightDirection;
+
+////////////////////////////////////////////////////////////////////////////////
+// Pixel Shader
+////////////////////////////////////////////////////////////////////////////////
+void main(void)
+{
+	lowp vec4 textureColor = vec4(outWeightColor.xyz, 0.5f);
+
+	lowp vec3 lightDir = -lightDirection;
+	lowp float intensity = clamp(dot(normalize(outNormal), lightDir), 0.0f, 1.0f);
+	intensity = clamp(intensity + 0.4f, 0.0f, 1.0f);	
+
+	outputColor = textureColor;
+}

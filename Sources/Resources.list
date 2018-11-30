@@ -1,0 +1,76 @@
+Resources
+{  
+  Resource
+  {
+    path = "shader.program"
+    size = 447
+    
+    Dependency
+    {
+      path = "vertex.vs"
+    }
+    
+    Dependency
+    {
+      path = "fragment.ps"
+    }
+  }
+  
+  Resource
+  {
+    path = "skinning.program"
+    size = 885
+    
+    Dependency
+    {
+      path = "skinning.vs"
+    }
+    
+    Dependency
+    {
+      path = "skinning.ps"
+    }
+  }
+  
+  Resource
+  {
+    path = "skinning.ps"
+    size = 990
+  }
+  
+  Resource
+  {
+    path = "skinning.vs"
+    size = 1990
+  }
+  
+  Resource
+  {
+    path = "SK_Mannequin.msh"
+    size = 1761056
+  }
+  
+  Resource
+  {
+    path = "ThirdPersonRun.anim"
+    size = 46868
+  }
+  
+  Resource
+  {
+    path = "ThirdPersonRun.skel"
+    size = 4216
+  }
+  
+  Resource
+  {
+    path = "ThirdPersonWalk.anim"
+    size = 76148
+  }
+  
+  Resource
+  {
+    path = "ThirdPersonWalk.skel"
+    size = 4216
+  }
+}

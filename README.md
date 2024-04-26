@@ -30,8 +30,5 @@ A "Build/" folder will be generated at the root of the repository, ready for you
 ## WARNING (Undefined behavior may occur)
 The application is unstable and sometimes the model won't show up. All you have to do is to close the application and re-open it again. This error is due to resources parsing and comes from the version of WhiteBoxEngine I used.
 
-## Direct Download
-- [Windows - 32/64-bit](http://adrien-givry.com/download/animation-programming.zip)
-
 ## Technical Demonstration
 - [Youtube Link](https://youtu.be/PzjegVRmqRU)
